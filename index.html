@@ -11,6 +11,9 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Barrio|Cinzel+Decorative|Slabo+27px" rel="stylesheet">
+    <audio controls autoplay>
+        <source src="assets/audio/Game of Thrones - Intro 1080p HD 5.1 Sound!.mp3" type="audio/mpeg">
+    </audio>
 
 </head>
 <body>
@@ -28,10 +31,13 @@
 <div class="container">
 
 
-
     <div class="row">
         <div class="col-md-3">
-            <img src="assets/css/image/jonSnow.jpg" id="jon" alt="Jon Snow">
+            <div class="image">
+                <img src="assets/css/image/jonSnow.jpg" id="jon" alt="Jon Snow">
+                <p><span>Jon Snow</span></p>
+                <!--have to wrap text in a div add span in order to have text over top of img - check css for properties-->
+            </div>
         </div>
         <div class="col-md-3">
 
@@ -40,15 +46,19 @@
 
         </div>
         <div class="col-md-3">
-            <img src="assets/css/image/whiteWalker.jpg" id="walker" alt="White Walker">
+            <div class="image">
+                <img src="assets/css/image/whiteWalker.jpg" id="walker" alt="White Walker">
+                <p><span>White Walker</span></p>
+            </div>
         </div>
     </div>
 
-
-
     <div class="row">
             <div class="col-md-3">
-                <img src="assets/css/image/khaleesi.jpg" id="khaleesi" alt="Khaleesi">
+                <div class="image">
+                    <img src="assets/css/image/khaleesi.jpg" id="khaleesi" alt="Khaleesi">
+                    <p><span>Khaleesi</span></p>
+                </div>
             </div>
         <div class="col-md-3">
             <button id="fight">Fight</button>
@@ -58,15 +68,21 @@
 
         </div>
         <div class="col-md-3">
-            <img src="assets/css/image/ramsay.jpg" id="ramsay" alt="Ramsay">
+            <div class="image">
+                <img src="assets/css/image/ramsay.jpg" id="ramsay" alt="Ramsay">
+                <p><span>Ramsay Bolton</span></p>
+            </div>
         </div>
     </div>
 
-
-
     <div class="row">
         <div class="col-md-3">
-            <img src="assets/css/image/direwolf.jpg" id="direwolf" alt="Direwolf">
+            <div>
+                <div class="image">
+                    <img src="assets/css/image/direwolf.jpg" id="direwolf" alt="Direwolf">
+                    <p><span>Direwolf</span></p>
+                </div>
+            </div>
         </div>
         <div class="col-md-3">
 
@@ -75,14 +91,19 @@
 
         </div>
         <div class="col-md-3">
-            <img src="assets/css/image/joffrey.jpg" id="joffery" alt="Joffery">
+            <div class="image">
+                <img src="assets/css/image/joffrey.jpg" id="joffery" alt="Joffery">
+                <p><span>Joffery Lannister</span></p>
+            </div>
         </div>
     </div>
 
-
     <div class="row">
         <div class="col-md-3">
-            <img src="assets/css/image/arya.jpg" id="arya" alt="Arya">
+            <div class="image">
+                <img src="assets/css/image/arya.jpg" id="arya" alt="Arya">
+                <p><span>Arya Stark</span></p>
+            </div>
         </div>
         <div class="col-md-3">
 
@@ -91,18 +112,16 @@
 
         </div>
         <div class="col-md-3">
-            <img src="assets/css/image/cersei.jpg" id="cersei" alt="Cersei">
+            <div class="image">
+                <img src="assets/css/image/cersei.jpg" id="cersei" alt="Cersei">
+                <p><span>Cersei Lannister</span></p>
+            </div>
         </div>
     </div>
 
 </div>
 
-
-
-
-
 <script type="text/javascript" src="assets/javascript/game.js"></script>
-
 
 </body>
 

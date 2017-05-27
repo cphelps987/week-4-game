@@ -14,7 +14,10 @@
     body {
         background: url(image/KingLanding.jpg), url(image/Wall.jpg), url(image/ironThrone.jpg) repeat 0 0;
         background-size: cover;
-        font-family: myFirstFont, 'Barrio', cursive, 'Slabo 27px', serif, 'Cinzel Decorative', cursive;
+        font-family: myFirstFont,
+        'Barrio', cursive,
+        'Slabo 27px', serif,
+        'Cinzel Decorative', cursive;
 
     }
 
@@ -41,6 +44,26 @@
         border: 5px solid black;
         padding: 35px;
         margin: 5px;
+    }
+
+    .image {
+        position: relative;
+        width: 100%; /* for IE 6 */
+    }
+
+    p {
+        position: absolute;
+        top: 15px;
+        left: 5px;
+        width: 100%;
+    }
+
+    p span {
+        color: white;
+        background: rgb(0, 0, 0); /* fallback color */
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        letter-spacing: .13em;
     }
 
     #jon {
