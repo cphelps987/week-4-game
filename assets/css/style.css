@@ -1,0 +1,80 @@
+    html {
+
+    }
+
+    #game {
+        margin: 20px;
+
+    }
+    @font-face {
+        font-family: myFirstFont;
+        src: url(font/gameOfThrones.ttf);
+    }
+
+    body {
+        background: url(image/KingLanding.jpg), url(image/Wall.jpg), url(image/ironThrone.jpg) repeat 0 0;
+        background-size: cover;
+        font-family: myFirstFont, 'Barrio', cursive, 'Slabo 27px', serif, 'Cinzel Decorative', cursive;
+
+    }
+
+    .center{
+       text-align: center;
+    }
+
+    #fight {
+        text-align: center;
+    }
+
+    button {
+        text-align: center;
+        padding: 15px 32px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 5px 100%;
+    }
+
+    img {
+        height: 3in;
+        border: 5px solid black;
+        padding: 35px;
+        margin: 5px;
+    }
+
+    #jon {
+        background: url(https://media.giphy.com/media/P2iC7o4UAUNrO/giphy.gif);
+    }
+
+    #khaleesi {
+        background: url(https://media.giphy.com/media/cI6Qfr0bWjDWM/giphy.gif);
+    }
+
+    #walker {
+        background: url(https://media.giphy.com/media/3oEduVgsqT9Cni0xWM/giphy.gif);
+    }
+
+    #direwolf {
+        background: url(https://media.giphy.com/media/fmd46thsu9btf9YUeI/giphy.gif);
+    }
+
+    #ramsay {
+        background: url(https://media.giphy.com/media/Xi2Xu0MejhsUo/giphy.gif);
+    }
+
+    #joffery {
+        background: url(https://media.giphy.com/media/AwiHZ6PZfRoOs/giphy.gif) left;
+        background-size: cover;
+    }
+
+    #cersei {
+        background: url(https://media.giphy.com/media/fmd46i4yw7xtF2qQCc/giphy.gif);
+    }
+
+    #arya {
+        background: url(https://media.giphy.com/media/SOC2nDgWcc0us/giphy.gif);
+        background-size: cover;
+    }
+/*
+, url("Wall.jpg"), url("iron_throne.jpg")*/
