@@ -20,7 +20,9 @@
        text-align: center;
     }
 
-
+    #fight {
+        text-align: center;
+    }
 
     button {
         text-align: center;
@@ -32,16 +34,22 @@
         margin: 5px 100%;
     }
 
-    #fight {
-        margin-top: 33.33%;
+    .playerOne, .playerTwo {
+        text-align: center;
+        width: 3in;
+        color: white;
+        background: rgb(0, 0, 0); /* fallback color */
+        background: rgba(0, 0, 0, 0.7);
+        padding: 9px;
+        margin-top: 99%;
+        margin-left: 143px;
+        postion: relative;
+
     }
 
-    #clear {
-        margin-bottom: 33.33%;
-    }
+    #p1, #p2 {
+        margin: 5px 63%;
 
-    .player1, .player2 {
-        margin-left: 60%;
     }
 
     img {
